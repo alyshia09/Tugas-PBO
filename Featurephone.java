@@ -13,11 +13,6 @@ public class Featurephone extends Handphone {
         System.out.println("Feature Phone " + merk + " " + model + " dimatikan.");
     }
 
-    @Override
-    public void telepon(String nomor) {
-        System.out.println("Melakukan panggilan suara ke nomor " + nomor);
-    }
-
     public void mainGameSnake() {
         System.out.println("Memainkan game Snake.");
     }
